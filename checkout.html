@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        <h1>Checkout</h1>
+        <p>Welcome to the checkout page!</p>
+        <form action="/confirmation" method="post">
+            <input type="text" placeholder="Full Name" required name="fullname"></input>
+            <input type="email" placeholder="Email" required name="email"></input>
+            <input type="phone" placeholder="Phone"  name="phone"></input>
+            <input type="text" placeholder="Shipping Address" required name="shipping_address"></input>
+            <input type="text" placeholder="Preferred delivery date" required name="preferred_delivery_date"></input>
+            <input type="number" placeholder="Card Number" required name="card_number"></input>
+            <input type="date" placeholder="Expiration Date (MM/YY)" required name="expiration_date"></input>
+            <input type="number" placeholder="CVV" required name="cvv"></input>
+            <input type="text" placeholder="Billing Address" required name="billing_address"></input>
+            <input type="text" placeholder="Discount Code" name="discount_code"></input>
+            <input type="checkbox" name="accept_terms" required> I accept the terms and conditions</input>
+            <input type="checkbox" name="update_optin">Opt in for updates from this company</input>
+            <button type="submit">Submit Order</button>
+        </form>
+    </body>
+</html>
