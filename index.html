@@ -148,7 +148,7 @@
         <div class="field-grid">
           <label class="field field-wide" for="card_number">
             <span>Card Number *</span>
-            <input id="card_number" type="text" name="card_number" inputmode="numeric" pattern="[0-9]{13,19}" title="Card number must be 13 to 19 digits" required>
+            <input id="card_number" type="text" name="card_number" inputmode="numeric" pattern="[0-9]{15,16}" title="Card number must be 15 to 16 digits" required>
           </label>
 
           <label class="field" for="expiration_date">
@@ -270,6 +270,9 @@
         </div>
 
         <button class="submit-button" type="submit">Submit Order</button>
+        <p class="shipping-policy">
+          Products are available for shipment only within the 50 United States. Orders with shipping or billing addresses outside the 50 states cannot be processed.
+        </p>
       </form>
     </section>
   </main>
