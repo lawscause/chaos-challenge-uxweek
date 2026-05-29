@@ -263,4 +263,40 @@ textarea:focus {
   h1 {
     max-width: 12ch;
   }
+
+  /* Address Section Styling */
+
+select {
+  width: 100%;
+  min-height: 52px;
+  padding: 0 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fffdf9;
+  color: var(--ink);
+  font: inherit;
+  outline: none;
+  transition: 160ms ease;
+}
+
+.address-group {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.address-group legend {
+  margin-bottom: 14px;
+  color: #49392f;
+  font-weight: 800;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent);
+  background: white;
+  box-shadow: 0 0 0 4px rgba(233, 111, 47, 0.14);
+}
+  
 }
